@@ -9,7 +9,7 @@ public abstract class MarkedStatic extends def.js.Object {
      * @param callback Function called when the markdownString has been fully parsed when using async highlighting
      * @return String of compiled HTML
      */
-    native public String apply(String src, Function callback);
+    native public String $apply(String src, Function callback);
     /**
      * Compiles markdown to HTML.
      *
@@ -18,7 +18,7 @@ public abstract class MarkedStatic extends def.js.Object {
      * @param callback Function called when the markdownString has been fully parsed when using async highlighting
      * @return String of compiled HTML
      */
-    native public String apply(String src, MarkedOptions options, Function callback);
+    native public String $apply(String src, MarkedOptions options, Function callback);
     /**
      * @param src String of markdown source to be compiled
      * @param options Hash of options
@@ -71,7 +71,7 @@ public abstract class MarkedStatic extends def.js.Object {
      * @param callback Function called when the markdownString has been fully parsed when using async highlighting
      * @return String of compiled HTML
      */
-    native public String apply(String src, MarkedOptions options);
+    native public String $apply(String src, MarkedOptions options);
     /**
      * Compiles markdown to HTML.
      *
@@ -80,7 +80,7 @@ public abstract class MarkedStatic extends def.js.Object {
      * @param callback Function called when the markdownString has been fully parsed when using async highlighting
      * @return String of compiled HTML
      */
-    native public String apply(String src);
+    native public String $apply(String src);
     /**
      * @param src String of markdown source to be compiled
      * @param options Hash of options
